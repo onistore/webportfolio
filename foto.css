@@ -1,0 +1,153 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-size: 100%;
+}
+
+header {
+  background: #1a2238;
+  color: #eaeaea;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: auto;
+}
+
+.btn-cta {
+  margin-right: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 6px 12px;
+  background: #ff0000;
+  color: #eaeaea;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto;
+}
+
+nav ul{
+  background-color: #DAA520;
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: grid;}
+img {
+  vertical-align: middle;
+  height: 75vh;
+  width: 150vh;
+  align-items: center;
+  border: 10px solid #555;
+}
+
+.slideshow {
+  max-width: 150vh;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: blue;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.parallax {
+  background-image: url('foto/pemandangan.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  width: auto;
+}
+
+.tentang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #DAA520;
+  color: #eaeaea;
+  padding: 20px ;
+  width: auto;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#textimg {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
